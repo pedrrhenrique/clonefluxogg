@@ -1,5 +1,19 @@
 
+@import url(//db.onlinewebfonts.com/c/2c89eca877ffb0f22a0545301a99e53c?family=Ardela+Edge);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+
 :root {
   bg-light: #e3e3e3;
   bg-dark: #282c34;
+}
+
+.container {
+  font-family: 'Ardela Edge', 'Roboto', arial;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-image: url('./assets/bgmain.png'); */
 }
