@@ -21,3 +21,45 @@
 .imgLogo {
     width: 80px;
 }
+
+@media (max-width: 740px) {
+    .imgLogo {
+        width: 50px;
+    }
+}
+
+@media (max-width: 605px) {
+    .navBar {
+        font-size: 10px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+    }
+
+    .imgLogo {
+        width: 50px;
+    }
+}
+
+@media (max-width: 375px) {
+    
+    body {
+        overflow-x: hidden;
+    }
+
+    .navBar {
+        font-size: 10px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+    }
+
+    .navBar-link {
+        
+    }
+
+    .imgLogo {
+        width: 50px;
+    }
+
+}

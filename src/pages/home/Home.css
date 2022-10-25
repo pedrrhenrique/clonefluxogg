@@ -26,5 +26,27 @@ a:hover {
     text-decoration: underline;
 }
 
+@media (max-width: 605) {
+    main {
+        background-image: url(../../assets/bgmainmedio.png);
+        background-size: contain;
+    }
+}
+
+@media (max-width: 375px) {
+    main {
+        background-image: url(../../assets/bgmainmenor.png);
+        background-size: contain;
+        margin-bottom: -100px;
+    }
+}
+
+@media (max-width: 296px) {
+    main {
+        background-image: url(../../assets/bgmainmenormenor.png);
+        background-size: contain;
+    }
+}
+
 
 
