@@ -1,0 +1,37 @@
+
+
+.containerSquad2 {
+    padding: 0 40px;
+    margin: 50px 0;
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cerolRaja {
+    display: flex;
+    align-items: flex-end;
+    background-image: url(../../assets/cerol.webp);
+}
+
+.cerolRaja:hover {
+    background-image: url(../../assets/rajavermelha.webp);
+}
+
+.cerolRaja p {
+    opacity: 0;
+}
+
+.cerolRaja:hover p {
+    opacity: 1;
+}
+
+.cutSpan {
+    text-decoration: line-through;
+}
+
+p .redSpan {
+    color: #E62249;
+
+}
