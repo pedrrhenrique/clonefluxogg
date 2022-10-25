@@ -1,0 +1,129 @@
+
+@import url(//db.onlinewebfonts.com/c/2c89eca877ffb0f22a0545301a99e53c?family=Ardela+Edge);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+body {
+    background: black;
+    color: #fff;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../assets/bgmain.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-family: 'Ardela Edge', 'Roboto', arial;
+    font-size: 16px;
+}
+
+.navBar-link {
+    margin-top: 50px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navBar-link:hover {
+    text-decoration: underline;
+}
+
+.imgLogo {
+    width: 80px;
+}
+
+footer {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', 'Ardela Edge', 'Roboto', arial;
+}
+
+.navBarSponsors-images {
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+hr {
+    width: 90%;
+    height: 3px;
+    background: linear-gradient(90deg, rgba(95,0,230,1) 0%, rgba(230,34,73,1) 100%);
+    border: none;
+    margin-bottom: 10px;
+}
+
+.footerNetworks {
+    padding: 0 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerNetworks-fluxo {
+    font-size: 15px;
+}
+
+.footerNetworks-redes {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+i {
+    font-size: 35px;
+    color: #fff;
+}
+
+.footerPolitics {
+    margin-top: 20px;
+    padding: 0 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.footerPolitics a {
+    font-size: 13px;    
+}
+
+.footerContact {
+    font-size: 13px;
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.footerWarning {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerWarning span {
+    text-align: center;
+}
+
