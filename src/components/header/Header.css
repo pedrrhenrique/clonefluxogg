@@ -1,0 +1,23 @@
+
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-family: 'Ardela Edge', 'Roboto', arial;
+    font-size: 16px;
+}
+
+.navBar-link {
+    margin-top: 50px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navBar-link:hover {
+    text-decoration: underline;
+}
+
+.imgLogo {
+    width: 80px;
+}

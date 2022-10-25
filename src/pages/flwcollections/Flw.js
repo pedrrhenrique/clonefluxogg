@@ -1,12 +1,12 @@
 
 import React from 'react';
-
+import NavBar from '../../components/navbar/NavBar';
+import Footer from '../../components/footer/Footer';
 function Flw() {
     return(
         <div>
-            <h1>
-                Página Flw
-            </h1>
+            <NavBar />
+            <Footer />
         </div>
     )
 }

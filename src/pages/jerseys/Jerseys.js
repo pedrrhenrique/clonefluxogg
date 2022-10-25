@@ -1,12 +1,14 @@
 
 import React from 'react';
+import NavBar from '../../components/navbar/NavBar'
+import Footer from '../../components/footer/Footer'
+import './Jerseys.css'
 
 function Jerseys() {
     return (
         <div>
-            <h1>
-                Página Jerseys
-            </h1>
+            <NavBar />
+            <Footer />
         </div>
     )
 }
