@@ -8,6 +8,7 @@ function Flw() {
             <NavBar />
             <Footer />
         </div>
+
     )
 }
 

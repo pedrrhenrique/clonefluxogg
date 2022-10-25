@@ -30,6 +30,7 @@ hr {
 }
 
 .footerNetworks-fluxo {
+    color: white;
     font-size: 15px;
 }
 
@@ -76,4 +77,8 @@ i {
 
 .footerWarning span {
     text-align: center;
+}
+
+span {
+    color: white;
 }

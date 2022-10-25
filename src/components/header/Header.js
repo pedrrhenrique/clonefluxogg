@@ -20,6 +20,7 @@ function Header() {
                     <Link className='navBar-link' to="/flw-collection">
                         <h1>FLW COLLECTION</h1>
                     </Link>
+
                 </nav>
             </main>
     </div>

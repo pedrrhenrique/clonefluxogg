@@ -1,0 +1,109 @@
+
+
+body {
+    font-family: 'Ardela Edge', 'Roboto', arial;
+}
+
+.containerSquad {
+    padding: 0 40px;
+    margin: 50px 0;
+    max-width: 1200px;
+    height: 100%;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    justify-items: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.squad {
+    width: 360px;
+    height: 530px;
+    background: white;
+    background-size: cover;
+    transition: all .3s;
+    position: relative;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.nobruRaja {
+    display: flex;
+    align-items: flex-end;
+    background-image: url(../../assets/nobru.webp);
+}
+
+.nobruRaja:hover {
+    background-image: url(../../assets/rajapreta.webp);
+}
+
+.laraDeusa {    
+    display: flex;
+    align-items: flex-end;
+    background-image: url(../../assets/bak3.webp);
+}
+
+.laraDeusa:hover {
+    background-image: url(../../assets/bak4.webp);
+}
+
+.bakRekkon {
+    display: flex;
+    align-items: flex-end;
+    background-image: url(../../assets/bak.webp);
+}
+
+.bakRekkon:hover {
+    background-image: url(../../assets/bak2.webp);
+}
+
+.squadDetails {
+    font-weight: bold;
+    font-size: 18px;
+    transition: all .3s;
+    width: 100%;
+    padding: 10px;
+    background-color: #000000dd;
+}
+
+.squadDetails span {
+    font-family: 'Poppins', 'Roboto', arial;
+    color: #bdbdbd;
+}
+
+.nobruRaja p, .laraDeusa p, .bakRekkon p {
+    opacity: 0;
+}
+
+.nobruRaja:hover p, .laraDeusa:hover p, .bakRekkon:hover p {
+    opacity: 1;
+}
+
+.btnJersey {
+    display: block;
+    margin-bottom: 40px;
+    text-align: center;
+    scale: 0.9;
+    transition: all .5s;
+}
+
+.btnJersey:hover {
+    scale: 1;
+}
+
+.btnJersey a {
+    text-decoration: none;
+}
+
+.btnClick {
+    font-family: 'Poppins', 'Roboto', arial;
+    font-weight: bold;
+    padding: 20px 100px;
+    color: black;
+    background: white;
+    border-radius: 8px;
+}
+
+
+
+
