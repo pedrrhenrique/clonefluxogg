@@ -30,12 +30,11 @@ a:hover {
     main {
         background-image: url(../../assets/bgmainmedio.png);
         background-position: top;
-        background-size: contain;
-        margin-bottom: -100px;
+        background-size: cover;
     }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 500px) {
 
     body {
         overflow-x: hidden;
