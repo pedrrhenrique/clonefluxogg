@@ -80,7 +80,7 @@ body {
 }
 
 .btnJersey {
-    display: block;
+    /* display: block; */
     margin-bottom: 40px;
     text-align: center;
     scale: 0.9;
@@ -104,5 +104,93 @@ body {
     border-radius: 8px;
 }
 
+@media (max-width: 1024px) {
+    
+    .squad {
+        width: 250px;
+        height: 320px;
+    }
+        
+    .nobruRaja p, .laraDeusa p, .bakRekkon p {
+        opacity: 1;
+    }
+    
+    .squadDetails {
+        font-size: 14px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+ 
+    .containerSquad {
+        overflow-x: hidden;
+    }
+
+    .squad {
+        width: 200px;
+        height: 280px;
+    }
+
+
+
+    
+    .squadDetails {
+        font-size: 10px;
+    }
+
+}
+
+
+@media (max-width: 720px) {
+
+    
+    .containerSquad {
+        padding: 0 20px;
+    }
+
+}
+
+@media (max-width: 680px) {
+    
+    .containerSquad {
+        overflow-x: auto;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .btnClick {
+        padding: 7px 43px;
+        font-size: 16px;
+    }
+
+}
+
+
+@media (max-width: 320px) {
+    .btnClick {
+        padding: 5px 25px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 285px) {
+
+    .containerSquad {
+        padding: 0 20px;
+    }
+
+    .btnClick {
+        padding: 2px 15px;
+        font-size: 12px;
+    }
+
+}
 
 

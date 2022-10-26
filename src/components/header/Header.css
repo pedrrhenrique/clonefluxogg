@@ -54,12 +54,17 @@
         justify-content: space-around;
     }
 
-    .navBar-link {
-        
-    }
 
     .imgLogo {
         width: 50px;
+    }
+
+}
+
+@media (max-width: 300px) {
+
+    .imgLogo {
+        width: 30px;
     }
 
 }
