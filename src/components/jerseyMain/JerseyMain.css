@@ -111,9 +111,7 @@ body {
         height: 320px;
     }
         
-    .nobruRaja p, .laraDeusa p, .bakRekkon p {
-        opacity: 1;
-    }
+
     
     .squadDetails {
         font-size: 14px;
@@ -137,7 +135,9 @@ body {
         height: 280px;
     }
 
-
+    .nobruRaja p, .laraDeusa p, .bakRekkon p {
+        opacity: 1;
+    }
 
     
     .squadDetails {

@@ -35,3 +35,11 @@ p .redSpan {
     color: #E62249;
 
 }
+
+
+@media (max-width: 768px) {
+
+    .cerolRaja p {
+        opacity: 1;
+    }
+}
