@@ -26,16 +26,23 @@ a:hover {
     text-decoration: underline;
 }
 
-@media (max-width: 605) {
+@media (max-width: 605px) {
     main {
         background-image: url(../../assets/bgmainmedio.png);
+        background-position: top;
         background-size: contain;
+        margin-bottom: -100px;
     }
 }
 
 @media (max-width: 430px) {
 
+    body {
+        overflow-x: hidden;
+    }
+
     main {
+
         background-image: url(../../assets/bgmainmenor.png);
         background-position: top;
         background-size: cover;
