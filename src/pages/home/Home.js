@@ -8,7 +8,7 @@ import './Home.css';
 function Home() {
 
     useEffect(() => {
-        document.title = 'Fluxo - Site Clone'
+        document.title = "Fluxo - Site Clone"
     })
 
     return (
