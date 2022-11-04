@@ -1,8 +1,13 @@
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import './FlwMain.css'
 
 function FlwMain() {
+
+    useEffect(() => {
+        document.title = 'Flw Collection - Site Clone'
+    })
+
     return (
         <div>
             <div className='containerSquad2'>

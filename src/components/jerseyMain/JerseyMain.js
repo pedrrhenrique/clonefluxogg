@@ -1,9 +1,12 @@
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import './JerseyMain.css'
 
 function JerseyMain() {
 
+    useEffect(() => {
+        document.title = 'Jerseys - Site Clone'
+    })
 
     return (
         <div>
